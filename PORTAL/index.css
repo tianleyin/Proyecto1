@@ -315,3 +315,96 @@
 .no ul li {
     padding: 10px;
 }
+
+@media only screen and (max-width: 768px){
+    html, body {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative;
+    }
+    .autocenter0 {
+        width: auto;
+    }
+    .play img {
+        width: 310px;
+    }
+    .autocenter1 {
+        flex-direction: column;
+    }
+    .autocenter1 video {
+        width: auto;
+        margin-left: 35px;
+    }
+    .intro p {
+        margin-top: 15px;
+    }
+    .titulo {
+        margin: 15px;
+    }
+    .start {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .start img {
+        display: none;
+    }
+    .ingame {
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+    .ingame img {
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        justify-self: center;
+    }
+    .ingame div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .finish {
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+    .finish h4 {
+        margin-bottom: 5px;
+    }
+    .finish img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .autocenter3 {
+        padding: 10px;
+    }
+    .autocenter3 h2 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .reglas {
+        margin-bottom: 15px;
+    }
+    .yes_no {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .yes_no img {
+        width: 50px;
+    }
+    .sí {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .sí ul li {
+        padding: 5px;
+    }
+    .no {
+        margin: auto;
+    }
+    .no ul li {
+        padding: 5px;
+    }
+}
