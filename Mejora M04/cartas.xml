@@ -1,0 +1,468 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE BARAJA SYSTEM "cartas.dtd">
+<BARAJA>
+    <ESPAÑOLA>
+        <CARTA carta = "carta1">
+            <NOMBRE>As de Oros</NOMBRE>
+            <VALOR>1</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta2">
+            <NOMBRE>Dos de Oros</NOMBRE>
+            <VALOR>2</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta3">
+            <NOMBRE>Tres de Oros</NOMBRE>
+            <VALOR>3</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta4">
+            <NOMBRE>Cuatro de Oros</NOMBRE>
+            <VALOR>4</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta5">
+            <NOMBRE>Cinco de Oros</NOMBRE>
+            <VALOR>5</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta6">
+            <NOMBRE>Seis de Oros</NOMBRE>
+            <VALOR>6</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta7">
+            <NOMBRE>Siete de Oros</NOMBRE>
+            <VALOR>7</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta8">
+            <NOMBRE>Sota de Oros</NOMBRE>
+            <VALOR>10</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta9">
+            <NOMBRE>Caballo de Oros</NOMBRE>
+            <VALOR>11</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta10">
+            <NOMBRE>Rey de Oros</NOMBRE>
+            <VALOR>12</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta11">
+            <NOMBRE>As de Copas</NOMBRE>
+            <VALOR>1</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta12">
+            <NOMBRE>Dos de Copas</NOMBRE>
+            <VALOR>2</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta13"> 
+            <NOMBRE>Tres de Copas</NOMBRE>
+            <VALOR>3</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta14">
+            <NOMBRE>Cuatro de Copas</NOMBRE>
+            <VALOR>4</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta15" >
+            <NOMBRE>Cinco de Copas</NOMBRE>
+            <VALOR>5</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta16">
+            <NOMBRE>Seis de Copas</NOMBRE>
+            <VALOR>6</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta17">
+            <NOMBRE>Siete de Copas</NOMBRE>
+            <VALOR>7</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta18">
+            <NOMBRE>Sota de Copas</NOMBRE>
+            <VALOR>10</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta19">
+            <NOMBRE>Caballo de Copas</NOMBRE>
+            <VALOR>11</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta20">
+            <NOMBRE>Rey de Copas</NOMBRE>
+            <VALOR>12</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta21">
+            <NOMBRE>As de Espadas</NOMBRE>
+            <VALOR>1</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta22">
+            <NOMBRE>Dos de Espadas</NOMBRE>
+            <VALOR>2</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta23">
+            <NOMBRE>Tres de Espadas</NOMBRE>
+            <VALOR>3</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta24">
+            <NOMBRE>Cuatro de Espadas</NOMBRE>
+            <VALOR>4</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta25">
+            <NOMBRE>Cinco de Espadas</NOMBRE>
+            <VALOR>5</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta26">
+            <NOMBRE>Seis de Espadas</NOMBRE>
+            <VALOR>6</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta27">
+            <NOMBRE>Siete de Espadas</NOMBRE>
+            <VALOR>7</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta28">
+            <NOMBRE>Sota de Espadas</NOMBRE>
+            <VALOR>10</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta29">
+            <NOMBRE>Caballo de Espadas</NOMBRE>
+            <VALOR>11</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta30">
+            <NOMBRE>Rey de Espadas</NOMBRE>
+            <VALOR>12</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta31">
+            <NOMBRE>As de Bastos</NOMBRE>
+            <VALOR>1</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta32">
+            <NOMBRE>Dos de Bastos</NOMBRE>
+            <VALOR>2</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta33">
+            <NOMBRE>Tres de Bastos</NOMBRE>
+            <VALOR>3</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta34">
+            <NOMBRE>Cuatro de Bastos</NOMBRE>
+            <VALOR>4</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta35">
+            <NOMBRE>Cinco de Bastos</NOMBRE>
+            <VALOR>5</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta36">
+            <NOMBRE>Seis de Bastos</NOMBRE>
+            <VALOR>6</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta37">
+            <NOMBRE>Siete de Bastos</NOMBRE>
+            <VALOR>7</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta38">
+            <NOMBRE>Sota de Bastos</NOMBRE>
+            <VALOR>10</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta39">
+            <NOMBRE>Caballo de Bastos</NOMBRE>
+            <VALOR>11</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta40">
+            <NOMBRE>Rey de Bastos</NOMBRE>
+            <VALOR>12</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+    </ESPAÑOLA>
+    <POKER>
+        <CARTA carta = "carta41">
+            <NOMBRE>As de Corazones</NOMBRE>
+            <VALOR>1</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta42">
+            <NOMBRE>Dos de Corazones</NOMBRE>
+            <VALOR>2</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta43">
+            <NOMBRE>Tres de Corazones</NOMBRE>
+            <VALOR>3</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta44">
+            <NOMBRE>Cuatro de Corazones</NOMBRE>
+            <VALOR>4</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta45">
+            <NOMBRE>Cinco de Corazones</NOMBRE>
+            <VALOR>5</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta46">
+            <NOMBRE>Seis de Corazones</NOMBRE>
+            <VALOR>6</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta47">
+            <NOMBRE>Siete de Corazones</NOMBRE>
+            <VALOR>7</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta48">
+            <NOMBRE>Ocho de Corazones</NOMBRE>
+            <VALOR>8</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta49">
+            <NOMBRE>Nueve de Corazones</NOMBRE>
+            <VALOR>9</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta50">
+            <NOMBRE>Diez de Corazones</NOMBRE>
+            <VALOR>10</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta51">
+            <NOMBRE>Jota de Corazones</NOMBRE>
+            <VALOR>11</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta52">
+            <NOMBRE>Reina de Corazones</NOMBRE>
+            <VALOR>12</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta53">
+            <NOMBRE>Rey de Corazones</NOMBRE>
+            <VALOR>13</VALOR>
+            <PRIORIDAD>4</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta54">
+            <NOMBRE>As de Picas</NOMBRE>
+            <VALOR>1</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta55">
+            <NOMBRE>Dos de Picas</NOMBRE>
+            <VALOR>2</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta56">
+            <NOMBRE>Tres de Picas</NOMBRE>
+            <VALOR>3</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta57">
+            <NOMBRE>Cuatro de Picas</NOMBRE>
+            <VALOR>4</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta58">
+            <NOMBRE>Cinco de Picas</NOMBRE>
+            <VALOR>5</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta59">
+            <NOMBRE>Seis de Picas</NOMBRE>
+            <VALOR>6</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta60">
+            <NOMBRE>Siete de Picas</NOMBRE>
+            <VALOR>7</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta61">
+            <NOMBRE>Ocho de Picas</NOMBRE>
+            <VALOR>8</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta62">
+            <NOMBRE>Nueve de Picas</NOMBRE>
+            <VALOR>9</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta63">
+            <NOMBRE>Diez de Picas</NOMBRE>
+            <VALOR>10</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta64">
+            <NOMBRE>Jota de Picas</NOMBRE>
+            <VALOR>11</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta65">
+            <NOMBRE>Reina de Picas</NOMBRE>
+            <VALOR>12</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta66">
+            <NOMBRE>Rey de Picas</NOMBRE>
+            <VALOR>13</VALOR>
+            <PRIORIDAD>3</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta67">
+            <NOMBRE>As de Treboles</NOMBRE>
+            <VALOR>1</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta68">
+            <NOMBRE>Dos de Treboles</NOMBRE>
+            <VALOR>2</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta69">
+            <NOMBRE>Tres de Treboles</NOMBRE>
+            <VALOR>3</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta70">
+            <NOMBRE>Cuatro de Treboles</NOMBRE>
+            <VALOR>4</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta71">
+            <NOMBRE>Cinco de Treboles</NOMBRE>
+            <VALOR>5</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta72">
+            <NOMBRE>Seis de Treboles</NOMBRE>
+            <VALOR>6</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta73">
+            <NOMBRE>Siete de Treboles</NOMBRE>
+            <VALOR>7</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta74">
+            <NOMBRE>Ocho de Treboles</NOMBRE>
+            <VALOR>8</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta75">
+            <NOMBRE>Nueve de Treboles</NOMBRE>
+            <VALOR>9</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta76">
+            <NOMBRE>Diez de Treboles</NOMBRE>
+            <VALOR>10</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta77">
+            <NOMBRE>Jota de Treboles</NOMBRE>
+            <VALOR>11</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta78">
+            <NOMBRE>Reina de Treboles</NOMBRE>
+            <VALOR>12</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta79">
+            <NOMBRE>Rey de Treboles</NOMBRE>
+            <VALOR>13</VALOR>
+            <PRIORIDAD>2</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta80">
+            <NOMBRE>As de Naipes</NOMBRE>
+            <VALOR>1</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta81">
+            <NOMBRE>Dos de Naipes</NOMBRE>
+            <VALOR>2</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta82">
+            <NOMBRE>Tres de Naipes</NOMBRE>
+            <VALOR>3</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta83">
+            <NOMBRE>Cuatro de Naipes</NOMBRE>
+            <VALOR>4</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta84">
+            <NOMBRE>Cinco de Naipes</NOMBRE>
+            <VALOR>5</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta85">
+            <NOMBRE>Seis de Naipes</NOMBRE>
+            <VALOR>6</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta86">
+            <NOMBRE>Siete de Naipes</NOMBRE>
+            <VALOR>7</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta87">
+            <NOMBRE>Ocho de Naipes</NOMBRE>
+            <VALOR>8</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta88">
+            <NOMBRE>Nueve de Naipes</NOMBRE>
+            <VALOR>9</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta89">
+            <NOMBRE>Diez de Naipes</NOMBRE>
+            <VALOR>10</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta90">
+            <NOMBRE>Jota de Naipes</NOMBRE>
+            <VALOR>11</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta91">
+            <NOMBRE>Reina de Naipes</NOMBRE>
+            <VALOR>12</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+        <CARTA carta = "carta92">
+            <NOMBRE>Rey de Naipes</NOMBRE>
+            <VALOR>13</VALOR>
+            <PRIORIDAD>1</PRIORIDAD>
+        </CARTA>
+    </POKER>
+</BARAJA>

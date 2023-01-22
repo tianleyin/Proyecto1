@@ -1,0 +1,172 @@
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.autocenter {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 15px;
+    width: 100%;
+    background-image: url(fotos-videos/background_equipo.jpg);
+}
+
+.autocenter img {
+    padding: 15px;
+    display: block;
+    width: 150px;
+    margin: auto;
+}
+
+.titulo {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.titulo h1 {
+    margin-top: 5px;
+    color:  white;
+}
+
+.marcelo {
+    display: flex;
+    flex-direction: column;
+    background-color: #4a694a;
+    padding: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-bottom: 35px;
+    transition: padding 1s;
+    color: white;
+    box-shadow: 0px 0px 20px whitesmoke;
+    border-radius: 15px;
+}
+
+.marcelo ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+.descrip1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.oculta {
+    display: none;
+    margin-left: 5px;
+    transition: all 0.3s;
+    font-size: large;
+    max-width: 480px;
+}
+
+.marcelo:hover {
+    padding-bottom: 30px;
+    cursor: text;
+}
+
+.marcelo:hover .oculta {
+    display: block;
+    margin-top: 10px;
+}
+
+.marti {
+    display: flex;
+    flex-direction: column;
+    background-color: #4a694a;
+    padding: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-bottom: 35px;
+    transition: padding 1s;
+    color: white;
+    box-shadow: 0px 0px 20px whitesmoke;
+    border-radius: 15px;
+}
+
+.marti ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+.descrip2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.descrip2 .oculta {
+    display: none;
+    margin-left: 5px;
+    transition: all 0.3s;
+    font-size: large;
+}
+
+.marti:hover {
+    padding-bottom: 50px;
+    cursor: text;
+}
+
+.marti:hover .oculta {
+    display: block;
+    margin-top: 15px;   
+}
+
+.tianle {
+    display: flex;
+    flex-direction: column;
+    background-color: #4a694a;
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-bottom: 65px;
+    transition: padding 1s;
+    color: white;
+    box-shadow: 0px 0px 20px whitesmoke;
+    border-radius: 15px;
+}
+
+.tianle ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+.descrip3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.descrip3 .oculta {
+    display: none;
+    margin-left: 5px;
+    transition: all 0.3s;
+    font-size: large;
+    max-width: 480px;
+}
+
+.tianle:hover {
+    padding-bottom: 30px;
+    cursor: text;
+}
+
+.tianle:hover .oculta {
+    display: block;
+    margin-top: 20px;   
+}
+
+@media only screen and (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative;
+    }
+}

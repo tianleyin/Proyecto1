@@ -1,0 +1,124 @@
+.autocenter {
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom:7px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    background-color: #1D1814;
+    color: white;
+    justify-content: center;
+}
+
+.icono_titulo {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icono {
+    width: 55px;
+    margin-left: 150px;
+    margin-right: 35px;
+}
+
+.icono_titulo nav {
+    float: left;
+    margin-right: 45px;
+}
+
+.icono_titulo nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+.icono_titulo nav ul li {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.icono_titulo nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: larger ;
+}
+
+.icono_titulo nav ul li:hover {
+    background: #eca023;
+}
+
+.esteve {
+    display: block;
+    width: 70px;
+    margin-left: 25px;
+    margin-right: 85px;
+}
+
+.carta {
+    display: block;
+    padding-right: 100px ;
+    padding-left: 25px;
+    margin-left: 45px;
+    width: 50px;
+    z-index: 3;
+    animation-duration: 3s;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(25px);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    75% {
+        transform: translateX(75px);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+}
+
+@media only screen and (max-width: 768px){
+    html, body {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative;
+    }
+    .esteve {
+        display: none;
+    }
+    .carta {
+        display: none;
+    }
+    .icono {
+        margin-left: auto;
+        margin-right: auto;
+        width: 110px;
+    }
+    .icono_titulo nav {
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .icono_titulo nav ul li {
+        float: none;
+    }
+    .icono_titulo nav ul li a {
+        font-size: 10px;
+    }
+}
