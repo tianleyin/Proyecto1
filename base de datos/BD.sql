@@ -53,22 +53,3 @@ CREATE TABLE game (
     FOREIGN KEY (initial_card_id)
     REFERENCES card (card_id)
 );
-
-CREATE TABLE round (
-  round_num TINYINT AUTO_INCREMENT,
-  game_id VARCHAR(25),
-  player_id VARCHAR(25) NOT NULL,
-  cardgame_id INT NOT NULL,
-  start_round_points TINYINT NULL,
-  end_round_points TINYINT NULL,
-  is_bank TINYINT(1) NULL,
-  bet_points TINYINT NULL,
-  cards_value DECIMAL(4,1) NULL,
-	PRIMARY KEY (round_num, game_id, player_id, cardgame_id),
-    FOREIGN KEY (game_id)
-    REFERENCES game (game_id),
-    FOREIGN KEY (player_id)
-    REFERENCES player (player_id),
-    FOREIGN KEY (cardgame_id)
-    REFERENCES cardgame (cardgame_id)
-);
