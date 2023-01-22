@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+        <link href="style.css" rel="stylesheet" />
+        <link href="Documentacion_programacion.css" rel="stylesheet" />
+        <script src="shadowPartial.js"></script>
+        <title>Programacion</title>
+        <link rel="website icon" type="png" href="fotos-videos/logo.png">
+    </head>
+    <body>
+        <div class="menu">
+            <shadow-partial data-html="menu.part.html" data-css="menu.part.css"></shadow-partial>
+        </div>
+        <div class="autocenter">
+            <div class="titulo">
+                <h1>Programación</h1>
+            </div>
+            <div class="banca">
+                <h3>Lógica de juego de la banca</h3>
+                <p>Cuando empieze el juego, la primera persona que será la banca es la que se encuentra en primera posición en el establecimiento de prioridad.</p>
+                <p>La banca es la ultima que actua en el juego en cada ronda, primero, los jugadores cojen cartas, intentan acercarse a siete y medio y se plantan, una vez con todos los jugadores plantados empieza el turno de la banca.</p>
+                <p>Se mostrara un menu al jugador que sea la banca, donde se mostrara el nombre, las cartas y las apuestas de cada jugador, también las cartas que tiene el jugador banca y sus puntos.</p>
+                <p>Una vez mostrado el menu, tiene dos opciones a elegir: Cojer carta o plantarse.</p>
+                <p>Una vez se ha plantado la banca se hace el pago correspondiente de la apuesta de cada jugador dependiendo de si han ganado o no.</p>
+                <p>Una vez acabada la ronda se elige al próximo jugador banca siguiendo esta prioridad.</p>
+                <p>1.El jugador que haya llegado a 7 y medio(En caso que haya mas de uno, se elegirá al de mayor prioridad.</p>
+                <p>2.El jugador con mayor prioridad despues de la banca.</p>
+            </div>
+            <div class="boot">
+                <h3>Lógica del juego de un boot</h3>
+                <p>Todas las decisiones de los bots se toma en base al tipo de jugador que es (En el caso de que siempre haya jugado como bot su tipo de jugador es el normal, type=40)</p>
+                <p>Estas son las decisiones que llegan a tomar los bots a la hora de jugar:</p>
+                <p>-Su apuesta: Se hace mediante sus puntos multiplicados por el tipo de jugador dividido entre 100.(Puntos de jugador * (tipo/100))</p>
+                <p>-Coger carta siendo jugador: Se hace mediante un calculo de las cartas que faltan por salir que hacen que superen el siete y medio y de las que no, dependiendo del tipo de jugador se cojera carta o no.</p>
+                <p>-Coger carta siendo banca: En caso de que ya gane a todos se plantara, si el resultado de las apuestas ganadoras es mas grande que los puntos que tiene cojera carta obligatoriamente, si llega a siete y medio se plantará, si se pasa de siete y medio se plantará, y, si no ocurre nada de lo mencionado, hará el calculo de coger carta siendo jugador.</p>
+            </div>
+            <div class="prioridad">
+                <h3>Establecimiento de la prioridad inicial de los jugadores</h3>
+                <p>Se establecerán las prioridades al iniciar el juego dando una carta a cada jugador, la carta que tenga el valor real mayor será la del jugador banca, los demás jugadores serán ordenados de manera que los de mayor prioridad será los que tienen las cartas más altas.</p>
+            </div>
+            <div class="bbdd">
+                <h4>Inserción en BBDD de las tablas cardgame, player_round, player_round_game</h4>
+                <p>Para la inserción de los datos en la BBDD se crean unos diccionarios originalmente vacios que se irán rellenando mientras continue el juego, la inserción de datos a los diccionarios están colocados de manera estratégica para que cumplan la función que se les pide y no den fallos.</p>
+                <p>Los diccionarios dejaran de recibir datos una vez acabada la partida, y cuando esto ocurra, tres funciones (una para cada tabla) se encargarán de sacar los datos de los diccionarios y introducirlos en la base de datos</p>
+            </div>
+        </div>
+    </body>

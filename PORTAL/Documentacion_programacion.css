@@ -1,0 +1,111 @@
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.autocenter {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top:0px;
+    padding: 15px;
+    width: 100%;
+    background-color: #284d00;
+    color: whitesmoke;
+}
+
+.autocenter h3, h4 {
+    color: #ffff00;
+}
+
+.autocenter p {
+    font-size: large;
+}
+
+.titulo {
+    margin-bottom: 35px;
+}
+
+.banca {
+    background-color: black;
+    padding: 35px;
+    width: 1200px;
+    margin-bottom: 45px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+.banca:hover {
+    transform: scale(1.05);
+    transition: ease-in;
+    transition-duration: 0.5s;
+}
+
+.boot {
+    background-color: black;
+    padding: 35px;
+    width: 1200px;
+    margin-bottom: 45px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+.boot:hover {
+    transform: scale(1.05);
+    transition: ease-in;
+}
+
+.prioridad {
+    background-color: black;
+    padding: 35px;
+    width: 1200px;
+    margin-bottom: 45px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+.prioridad:hover {
+    transform: scale(1.05);
+    transition: ease-in;
+}
+
+.bbdd {
+    background-color: black;
+    padding: 35px;
+    width: 1200px;
+    margin-bottom: 45px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+.bbdd:hover {
+    transform: scale(1.05);
+    transition: ease-in;
+}
+
+@media only screen and (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative;
+    }
+    .autocenter p {
+        font-size: small;
+    }
+    .banca {
+        width: 350px;
+    }
+    .boot {
+        width: 350px;
+    }
+    .prioridad {
+        width: 350px;
+    }
+    .bbdd {
+        width: 350px;
+    }
+}
