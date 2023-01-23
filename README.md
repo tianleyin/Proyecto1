@@ -8,14 +8,17 @@ Proyecto 1 (Siete y medio)
 
  - Información de contacto:
 
-- Marcelo
+-- Marcelo	
+
 email: marcelogr2004@gmail.com
 insta: mgonnzalezz
 
-- Martí 
+-- Martí 
+
 email: martimiranda2356@gmail.com
 insta: martimirannda_
 
-- Tianle
+-- Tianle
+
 email: tianleyin8888@gmail.com 
 insta: tianleyin
