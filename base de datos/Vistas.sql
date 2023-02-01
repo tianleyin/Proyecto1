@@ -26,7 +26,16 @@ where bet_points in (select min(bet_points) from round group by game_id)
 group by game_id, player_id
 ;
 
-CREATE VIEW winer_bot
+CREATE VIEW player_stats
+AS
+SELECT game_id, player_id, rounds, format(avg(bet_points),2) as bet_points, count(round_num) as rounds_winner,
+CONCAT(ROUND((count(round_num) * 100) / (rounds),2 )) as average_won
+FROM round r, cardgame c
+where r.cardgame_id = c.cardgame_id and start_round_points < end_round_points
+group by game_id, player_id, rounds
+;
+
+CREATE VIEW winner_bot
 AS
 SELECT game_id, sum(end_points - start_points) as earn_points
 FROM game, player
@@ -34,9 +43,9 @@ where game.player_id = player.player_id and human = false and start_points < end
 group by game_id
 ;
 
-CREATE VIEW bank_round_winer
+CREATE VIEW bank_round_winner
 AS
-SELECT game_id, count(round_num) as bank_round_winer
+SELECT game_id, count(round_num) as bank_round_winner
 FROM round
 where is_bank = true and start_round_points < end_round_points
 group by game_id
